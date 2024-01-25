@@ -741,6 +741,26 @@
     "//": "Based on https://www.amazon.com/dp/B015CH1PJU"
   },
   {
+    "type": "GENERIC",
+    "id": "usb_drive_unread",
+    "copy-from": "usb_drive",
+    "name": { "str": "USB drive (unread)", "str_pl": "USB drives (unread)" },
+    "description": "A USB thumb drive.  Might be worth taking a look at what's in it.",
+    "memory_card": {
+      "data_chance": 0.875,
+      "on_read_convert_to": "usb_drive",
+      "photos_chance": 0.33,
+      "photos_amount": 30,
+      "songs_chance": 0.33,
+      "songs_amount": 15,
+      "recipes_chance": 0.33,
+      "recipes_amount": 3,
+      "recipes_categories": [ "CC_AMMO", "CC_ARMOR", "CC_CHEM", "CC_ELECTRONIC", "CC_FOOD", "CC_WEAPON" ],
+      "recipes_level_max": 5
+    },
+    "pocket_data": [  ]
+  },  
+  {
     "type": "TOOL",
     "id": "usb_drive_nano",
     "symbol": ",",
